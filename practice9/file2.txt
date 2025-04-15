@@ -1,0 +1,1 @@
+As a whole, Electronics and Communication Engineering (ECE) combines aspects of both electronics and communication theory to work on systems such as mobile networks, communication infrastructure, signal processing, embedded systems, and more. It’s a multidisciplinary field that touches on hardware (electronics) and software (communication protocols, networks).
