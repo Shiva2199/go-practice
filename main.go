@@ -27,7 +27,10 @@ func filterOutTop3(prefix string) []searchEngine {
 			top3Searches = append(top3Searches, s)
 		}
 	}
-	return top3Searches
+	sort.Slice(top3Searches, func(i, j int) bool {
+	return top3Searches[i].frequency > top3Searches[j].frequency
+	}
+	return top3Searches[:min(3, len(top3Searches))]
 }
 func main() {
 	//go SampleRoutine()
